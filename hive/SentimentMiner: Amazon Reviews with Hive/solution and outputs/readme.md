@@ -1,4 +1,5 @@
 Step 1: Load and Create Tables
+
 1.1 For Amazon Reviews Table - 
 
 CREATE EXTERNAL TABLE amazon_reviews (
