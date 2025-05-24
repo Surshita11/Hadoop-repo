@@ -14,3 +14,23 @@ reviews.
 2. Use the word sentiment dataset and find out the percentage of words that
 are positive, negative and neutral. The words that aren’t mentioned in the
 word sentiment dataset are considered as neutral.
+
+Note: The attributes, ‘reviewsrating’ and ‘reviewstext’ correspond with the ratings
+and the text reviews, respectively.
+Note: In the word sentiment dataset, a positive numeric value denotes a positive
+emotion and a negative numeric value denotes a negative emotion attached to
+the word.
+
+Constraints:
+● For accuracy, do not treat uppercase words and lowercase words as
+separate words. Convert all words to lowercase. (For example: ‘His’ and
+‘his’ should not be treated as separate words)
+If you have a sentence “His his”, then the output should be:
+his 2
+And not:
+his 1
+His 1
+● Remove all punctuation marks from the beginning and the end of all words:
+‘hello?’, ‘hello.’, ‘hello-‘, ‘hello’, ‘HellO’
+will all correspond to the following count:
+hello 5
