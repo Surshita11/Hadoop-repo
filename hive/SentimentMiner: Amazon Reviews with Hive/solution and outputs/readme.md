@@ -1,3 +1,5 @@
+Write these queries a hive env with the HiveQL language (HQL (i.e. which is similar to SQL but optimized for working with distributed data stored in Hadoop)) 
+
 Step 1: Load and Create Tables
 
 1.1 For Amazon Reviews Table - 
